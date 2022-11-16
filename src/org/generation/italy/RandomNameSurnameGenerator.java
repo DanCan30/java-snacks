@@ -10,11 +10,9 @@ public class RandomNameSurnameGenerator {
 		
 		String[] guestsSurnames = {"Cognome1", "Cognome2", "Cognome3", "Rossi", "Petricca", "Cappellini", "Micco"};
 		
-		String title = "lista invitati: ";
+		System.out.println("LISTA INVITATI: ");
 		
 		Random rnd = new Random();
-		
-		System.out.println(title.toUpperCase());
 		
 		for(int i = 0; i < 30; i++) {
 			
