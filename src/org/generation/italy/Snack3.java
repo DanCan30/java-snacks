@@ -1,6 +1,6 @@
 package org.generation.italy;
 
-public class OddElementSum {
+public class Snack3 {
 	
 	public static void main(String[] args) {
 		

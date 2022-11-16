@@ -2,7 +2,7 @@ package org.generation.italy;
 
 import java.util.Random;
 
-public class RandomElementUntilTwoArraysHaveEqualLength {
+public class Snack4 {
 	
 	public static void main(String[] args) {
 		

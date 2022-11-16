@@ -2,7 +2,7 @@ package org.generation.italy;
 
 import java.util.Random;
 
-public class RandomNameSurnameGenerator {
+public class Snack2 {
 
 	public static void main(String[] args) {
 		
