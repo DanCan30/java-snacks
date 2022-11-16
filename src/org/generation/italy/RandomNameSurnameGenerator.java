@@ -19,7 +19,7 @@ public class RandomNameSurnameGenerator {
 		for(int i = 0; i < 30; i++) {
 			
 			int randomValue1 = rnd.nextInt(guestsNames.length);
-			int randomValue2 = rnd.nextInt(guestsNames.length);
+			int randomValue2 = rnd.nextInt(guestsSurnames.length);
 			
 			System.out.println(guestsNames[randomValue1] + " " + guestsSurnames[randomValue2]);
 		}
