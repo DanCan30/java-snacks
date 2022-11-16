@@ -9,12 +9,20 @@ public class OddElementSum {
 		int sum = 0;
 		
 		for(int i = 0; i < numbers.length; i++) {
-			
+
+//			Considering the position of the element in the array, not the index, so the count starts at 1
 			if((i + 1) % 2 != 0) {
 				int num = numbers[i];
 				sum += num;
 				System.out.println(num);
 			}
+			
+//			Considering the Index of the element, so the count starts at 0		
+//			if(i % 2 != 0) {
+//				int num = numbers[i];
+//				sum += num;
+//				System.out.println(num);
+//			}
 		}
 		
 		System.out.println(sum);
